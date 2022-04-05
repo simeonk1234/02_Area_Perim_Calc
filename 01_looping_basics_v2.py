@@ -29,4 +29,11 @@ def num_check(question):
 # main routine goes here
 width = num_check("Width: ")
 height = num_check("Height: ")
-print(width)
+
+
+area = width * height
+
+perimeter = 2 * (width + height)
+
+print("Perimeter: {} units".format(perimeter))
+print("Area: {} square units".format(area))
