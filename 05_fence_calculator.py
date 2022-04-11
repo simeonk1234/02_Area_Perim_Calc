@@ -56,6 +56,10 @@ while keep_going == "":
   
     
     keep_going = input("Press <enter> to keep going or any key to quit")
+
+    print()
+    print("_" * 30)
+    print()
     
 print()
 print("Thanks for using the Fencing cost calculator")
